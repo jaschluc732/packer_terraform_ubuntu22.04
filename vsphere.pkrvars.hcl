@@ -4,14 +4,14 @@
 
 # Credentials
 
-vcenter_username                = "administrator@vsphere.home"
-vcenter_password                = "superSecretPassword"
+vcenter_username                = "administrator@vsphere.local"
+vcenter_password                = "Admin!2345"
 
 # vSphere Objects
 
 vcenter_insecure_connection     = true
 vcenter_server                  = "192.168.110.110"
-vcenter_datacenter              = "Datacenter"
+vcenter_datacenter              = "NSXT"
 vcenter_host                    = "192.168.110.111"
 vcenter_datastore               = "Datastore2_NonSSD"
 vcenter_network                 = "VM Network"
