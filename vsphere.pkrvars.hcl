@@ -18,4 +18,4 @@ vcenter_network                 = "VM Network"
 vcenter_folder                  = "Templates"
 
 # ISO Objects
-iso_path                        = "[0-local1] /packer_cache/ubuntu-22.04.3-live-server-amd64.iso"
+iso_path                        = "[0-local1] /packer_cache/ubuntu-22.04.1-live-server-amd64.iso"
