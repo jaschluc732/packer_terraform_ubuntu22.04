@@ -72,14 +72,4 @@ sudo /tmp/cleanup.sh
 ### All done. ### 
 echo '> Done.'  
 
-# Install docker
-apt update -y
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
-add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
-apt update -y
-apt-cache policy docker-ce
-apt install docker-ce -y
-groupadd docker
-usermod -aG docker ubuntu
-
 echo '> Packer Template Build -- Complete'
