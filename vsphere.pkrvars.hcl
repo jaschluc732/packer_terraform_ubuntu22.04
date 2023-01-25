@@ -12,6 +12,7 @@ vcenter_password                = "Admin!2345"
 vcenter_insecure_connection     = true
 vcenter_server                  = "192.168.1.10"
 vcenter_datacenter              = "NSX-T"
+vcenter_cluster                 = "prod"
 vcenter_host                    = "192.168.1.5"
 vcenter_datastore               = "0-local1"
 vcenter_network                 = "VM Network"
