@@ -14,9 +14,9 @@ vcenter_server                  = "192.168.1.10"
 vcenter_datacenter              = "NSX-T"
 vcenter_cluster                 = "prod"
 vcenter_host                    = "pcs-esxi1.eveng.dev"
-vcenter_datastore               = "0-local1"
+vcenter_datastore               = "esxi1"
 vcenter_network                 = "VM Network"
 vcenter_folder                  = "Templates"
 
 # ISO Objects
-iso_path                        = "[0-local1] /packer_cache/ubuntu-22.04.1-live-server-amd64.iso"
+iso_path                        = "[esxi1] /packer_cache/ubuntu-22.04.1-live-server-amd64.iso"
