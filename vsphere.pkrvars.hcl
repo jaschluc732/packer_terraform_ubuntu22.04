@@ -15,7 +15,7 @@ vcenter_datacenter              = "NSX-T"
 vcenter_cluster                 = "prod"
 vcenter_host                    = "pcs-esxi1.eveng.dev"
 vcenter_datastore               = "esxi1"
-vcenter_network                 = "mgt-vds-DVUplinks-38"
+vcenter_network                 = "DPortGroup"
 vcenter_folder                  = "Templates"
 
 # ISO Objects
