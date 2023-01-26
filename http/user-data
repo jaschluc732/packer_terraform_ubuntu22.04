@@ -9,6 +9,12 @@ autoinstall:
         layout: en
         variant: us
     packages: [openssh-server, net-tools, cloud-init]
+    network:
+        network:
+            version: 2
+            ethernets:
+                ens192:
+                    dhcp4: true
     identity:
         hostname: ubuntu-server
         username: ubuntu
