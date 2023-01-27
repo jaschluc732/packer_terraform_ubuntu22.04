@@ -8,14 +8,14 @@ autoinstall:
     keyboard:
         layout: en
         variant: us
-    packages: [open-vm-tools, openssh-server, net-tools, perl, open-iscsi, ntp, curl, vim, ifupdown, zip, unzip, gnupg2, software-properties-common, apt-transport-https, ca-certificates, lsb-release, python3-pip, jq]
+    packages: [open-vm-tools, openssh-server, cloud-init, software-properties-common, apt-transport-https, ca-certificates, lsb-release, python3-pip, jq]
     identity:
         hostname: ubuntu-server
         username: ubuntu
         password: ubuntu
     ssh:
-        install-server: yes
-        allow-pw: yes
+        install-server: true
+        allow-pw: true
     storage:
         layout:
             name: direct
