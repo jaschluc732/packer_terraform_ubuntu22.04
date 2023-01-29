@@ -261,7 +261,7 @@ source "vsphere-iso" "linux-ubuntu-server" {
   cd_label = "cidata"
   boot_command = [
     "e<down><down><down><end>",
-    " autoinstall ds=nocloud;",
+    "autoinstall ds=nocloud;seedfrom=http://{{.HTTPIP}}:{{.HTTPPort}}^"",
     "<F10>"
   ]
   ip_wait_timeout = "20m"
