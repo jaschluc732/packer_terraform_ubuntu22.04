@@ -17,7 +17,7 @@ $6$KU2P9m78xF3n$noEN/CV.0R4qMLdDh/TloUplmJ0DLnqi6/cP7hHgfwUu.D0hMaD2sAfxDT3eHP5B
 
 Running Packer build with hcl
 
-    packer build -force -on-error=ask -var-faile variables.pkrvars100GBdisk.hcl ubuntu-22.04.pkr.hcl
+    packer build -force -on-error=ask -var-file variables.pkrvars100GBdisk.hcl -var-file vsphere.pkrvars.hcl ubuntu-22.04.pkr.hcl
 
 Troubleshooting
 
