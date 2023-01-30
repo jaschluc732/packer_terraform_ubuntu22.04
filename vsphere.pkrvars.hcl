@@ -13,10 +13,10 @@ vcenter_insecure_connection     = true
 vcenter_server                  = "192.168.1.10"
 vcenter_datacenter              = "NSX-T"
 vcenter_cluster                 = "prod"
-vcenter_host                    = "pcs-esxi1.eveng.dev"
-vcenter_datastore               = "esxi1"
+vcenter_host                    = "pcs-esxi2.eveng.dev"
+vcenter_datastore               = "esxi2"
 vcenter_network                 = "DPortGroup"
 vcenter_folder                  = "Templates"
 
 # ISO Objects
-os_iso_path                        = "[esxi1] ISO/ubuntu-22.04.1-live-server-amd64.iso"
+os_iso_path                        = "[esxi2] ISO/ubuntu-22.04.1-live-server-amd64.iso"
