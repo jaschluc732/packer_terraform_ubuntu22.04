@@ -5,18 +5,18 @@
 # Credentials
 
 vcenter_username                = "administrator@vsphere.local"
-vcenter_password                = "Admin!2345"
+vcenter_password                = "VMware!2345"
 
 # vSphere Objects
 
 vcenter_insecure_connection     = true
-vcenter_server                  = "192.168.1.10"
-vcenter_datacenter              = "NSX-T"
-vcenter_cluster                 = "prod"
-vcenter_host                    = "pcs-esxi2.eveng.dev"
-vcenter_datastore               = "esxi2"
-vcenter_network                 = "DPortGroup"
+vcenter_server                  = "192.168.1.11"
+vcenter_datacenter              = "NSX"
+vcenter_cluster                 = "Prod-Compute"
+vcenter_host                    = "pcs-esxi1.eveng.dev"
+vcenter_datastore               = "ESXI1"
+vcenter_network                 = "vrfa"
 vcenter_folder                  = "Templates"
 
 # ISO Objects
-os_iso_path                        = "[esxi2] ISO/ubuntu-22.04.1-live-server-amd64.iso"
+os_iso_path                        = "[ESXI1] ISO/ubuntu-22.04.3-live-server-amd64.iso"
