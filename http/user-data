@@ -12,7 +12,7 @@ autoinstall:
     identity:
         hostname: ubuntu-server
         username: ubuntu
-        password: "$6$rounds=4096$ojjq72ODNnxyVNEH$h0HYAU9Xh6/UUt8/yfKw9DDc08sZYCKj4b3Ep70JOOZkrKO7GyhB5ufsaXKl.yJPZHLmxT2J1nudTm5TEE9IX/"
+        password: "$6$rounds=4096$DuGhg7PIdXJP6FPg$T8z0pBPgZw2HzyxdKOvbqcLjI2EFyPtssi3H6b1ocL8V7xv40LfkCT.cOixIKDo8OidBCWklzuWvJFTjG6CSP1"
     ssh:
         install-server: true
         allow-pw: true
