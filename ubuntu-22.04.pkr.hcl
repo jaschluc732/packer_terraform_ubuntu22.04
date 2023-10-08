@@ -229,7 +229,7 @@ source "vsphere-iso" "linux-ubuntu-server" {
   convert_to_template = true
   guest_os_type = var.vm_guest_os_type
   vm_version = var.vm_version
-  notes = "Built by HashiCorp Packer on ${local.buildtime}."
+  notes = "Code: Jack Schluckbier From: HashiCorp Packer on ${local.buildtime}."
   vm_name = var.vm_name
   firmware = var.vm_firmware
   CPUs = var.vm_cpu_sockets
