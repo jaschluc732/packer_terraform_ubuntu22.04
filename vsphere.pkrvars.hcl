@@ -15,7 +15,7 @@ vcenter_datacenter              = "NSX"
 vcenter_cluster                 = "Prod-Compute"
 vcenter_host                    = "192.168.1.4"
 vcenter_datastore               = "ESXI1"
-vcenter_network                 = "vrfa"
+vcenter_network                 = "vrfA"
 vcenter_folder                  = "Templates"
 
 # ISO Objects
