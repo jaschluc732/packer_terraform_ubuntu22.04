@@ -10,10 +10,10 @@ vcenter_password                = "VMware!2345"
 # vSphere Objects
 
 vcenter_insecure_connection     = true
-vcenter_server                  = "192.168.1.10"
+vcenter_server                  = "192.168.1.11"
 vcenter_datacenter              = "NSX"
 vcenter_cluster                 = "Prod-Compute"
-vcenter_host                    = "192.168.1.11"
+vcenter_host                    = "192.168.1.10"
 vcenter_datastore               = "ESXI1"
 vcenter_network                 = "vrfa"
 vcenter_folder                  = "Templates"
