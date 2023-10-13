@@ -259,7 +259,7 @@ source "vsphere-iso" "linux-ubuntu-server" {
         "./${var.http_directory}/meta-data",
         "./${var.http_directory}/user-data"]
   cd_label = "cidata"
-  boot_command = ["<esc><esc><esc><esc>e<wait>", "<del><del><del><del><del><del><del><del>", "<del><del><del><del><del><del><del><del>", "<del><del><del><del><del><del><del><del>", "<del><del><del><del><del><del><del><del>", "<del><del><del><del><del><del><del><del>", "<del><del><del><del><del><del><del><del>", "<del><del><del><del><del><del><del><del>", "<del><del><del><del><del><del><del><del>", "<del><del><del><del><del><del><del><del>", "<del><del><del><del><del><del><del><del>", "<del><del><del><del><del><del><del><del>", "<del><del><del><del><del><del><del><del>", "<del><del><del><del><del><del><del><del>", "<del><del><del><del><del><del><del><del>", "linux /casper/vmlinuz --- autoinstall ds=nocloud;seedfrom=http://{{ .HTTPIP }}:{{ .HTTPPort }}/\"<enter><wait>", "initrd /casper/initrd<enter><wait>", "boot<enter>", "<enter><f10><wait>"]
+  boot_command = "e<down><down><down><end>"," autoinstall ds=nocloud;","<F10>",]
   ip_wait_timeout = "20m"
   ssh_password = var.ssh_password
   ssh_username = var.ssh_username
