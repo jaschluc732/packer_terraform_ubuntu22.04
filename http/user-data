@@ -6,8 +6,8 @@ autoinstall:
         - sudo systemctl stop ssh
     locale: en_US
     keyboard:
-        layout: en
-        variant: us
+        layout: us
+        variant: ""
     packages: [open-vm-tools, openssh-server, cloud-init]
     identity:
         hostname: ubuntu-server
