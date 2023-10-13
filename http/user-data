@@ -8,7 +8,7 @@ autoinstall:
     keyboard:
         layout: us
         variant: ""
-    packages: [open-vm-tools, openssh-server, cloud-init]
+    packages: [open-vm-tools, net-tools, openssh-server, software-properties-common, cloud-init, apt-transport-https, ca-certificates, jq, ]
     network:
        network:
           version: 2
