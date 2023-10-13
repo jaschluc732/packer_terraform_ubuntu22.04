@@ -13,7 +13,7 @@ autoinstall:
         network:
             version: 2
             ethernets:
-                ens192:
+                ens160:
                     dhcp4: true
     identity:
         hostname: ubuntu-server
