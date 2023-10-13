@@ -259,7 +259,11 @@ source "vsphere-iso" "linux-ubuntu-server" {
         "./${var.http_directory}/meta-data",
         "./${var.http_directory}/user-data"]
   cd_label = "cidata"
-  boot_command = "e<down><down><down><end>"," autoinstall ds=nocloud;","<F10>",]
+  boot_command = [
+  "e<down><down><down><end>",
+  " autoinstall ds=nocloud;",
+  "<F10>",
+  ]
   ip_wait_timeout = "20m"
   ssh_password = var.ssh_password
   ssh_username = var.ssh_username
