@@ -11,8 +11,8 @@ vcenter_password                = "VMwareVca!2345"
 
 vcenter_insecure_connection     = true
 vcenter_server                  = "192.168.1.11"
-vcenter_datacenter              = "NSX"
-vcenter_cluster                 = "Prod-Compute"
+vcenter_datacenter              = "NSXT"
+vcenter_cluster                 = "Prod-Cluster"
 vcenter_host                    = "192.168.1.4"
 vcenter_datastore               = "ESXI1"
 vcenter_network                 = "prod-mgt-vds"
