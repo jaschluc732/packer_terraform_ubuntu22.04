@@ -5,7 +5,7 @@
 # Credentials
 
 vcenter_username                = "administrator@vsphere.local"
-vcenter_password                = "VMware!2345"
+vcenter_password                = "VMwareVca!2345"
 
 # vSphere Objects
 
