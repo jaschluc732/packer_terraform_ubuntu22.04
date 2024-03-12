@@ -15,7 +15,7 @@ vcenter_datacenter              = "NSXT"
 vcenter_cluster                 = "Prod-Cluster"
 vcenter_host                    = "pcs-esxi1.eveng.dev"
 vcenter_datastore               = "ESXI1"
-vcenter_network                 = "prod-mgt-vds"
+vcenter_network                 = "prod-vds"
 vcenter_folder                  = "Templates"
 
 # ISO Objects
