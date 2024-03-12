@@ -19,4 +19,4 @@ vcenter_network                 = "prod-vds"
 vcenter_folder                  = "Templates"
 
 # ISO Objects
-os_iso_path                        = "[ESXI1] ISO/ubuntu-22.04.3-live-server-amd64.iso"
+os_iso_path                        = "[ESXI2] ISO/ubuntu-22.04.3-live-server-amd64.iso"
